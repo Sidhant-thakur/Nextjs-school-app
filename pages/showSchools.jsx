@@ -36,8 +36,6 @@ export default function ShowSchools() {
               <p>
                 {school.address}, {school.city}, {school.state}
               </p>
-              <p>📞 {school.contact}</p>
-              <p>📧 {school.email_id}</p>
             </div>
           ))}
         </div>
